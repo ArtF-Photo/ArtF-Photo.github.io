@@ -62,6 +62,7 @@ const SERIES = [
       { src: "rythmes/Vienna_007.jpg",          caption: "Shadows, Vienna" },
       // Nature rhythms
       { src: "rythmes/2024_june_007-2.jpg",    caption: "Breakwater posts" },
+      { src: "rythmes/2025_06_017.jpg",        caption: "Dead stumps" },
       { src: "rythmes/2025_06_014.jpg",         caption: "Driftwood arch" },
       { src: "rythmes/2025_06_012.jpg",         caption: "Coastal headland" },
       // Solitary organics
@@ -125,7 +126,6 @@ const SERIES = [
     images: [
       // Architecture dissolved
       { src: "translucent/2025_07_001.jpg",       caption: "Gothic arch, night ghost" },
-      { src: "translucent/2025_06_017.jpg",        caption: "Dead stumps" },
       // Figures dissolved
       { src: "translucent/2025_09_005.jpg",        caption: "Elusive" },
       { src: "translucent/2025_08_033-1.jpg",     caption: "Phantom rider" },
