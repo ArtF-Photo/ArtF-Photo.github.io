@@ -86,11 +86,17 @@ nav {
 }
 
 /* ── PAGE PADDING ── */
-.page-projects,
+
 .page-about,
+.page-projects {
+  padding: 4px 48px 80px;
+}
+
 .page-contact {
   padding: 64px 48px 80px;
 }
+
+
 
 .page-about  { background: var(--surface); }
 .page-contact { background: var(--bg); }
@@ -304,6 +310,13 @@ nav {
   max-width: 960px;
 }
 
+.about-layout-3col {
+  grid-template-columns: 1.5fr 1fr auto;
+  gap: 60px;
+  align-items: start;
+  max-width: 100%;
+}
+
 .about-text p {
   color: var(--muted);
   margin-bottom: 20px;
@@ -331,11 +344,7 @@ nav {
 
 .meta-value { color: var(--text); }
 
-.about-layout-3col {
-  grid-template-columns: 1fr 1fr auto;
-  gap: 60px;
-  align-items: start;
-}
+
 
 .about-portrait {
   width: 360px;
@@ -350,7 +359,7 @@ nav {
 
 @media (max-width: 900px) {
   .about-layout-3col {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1.5fr 1fr auto;
   }
   .about-portrait { width: 100%; max-width: 320px; }
 }

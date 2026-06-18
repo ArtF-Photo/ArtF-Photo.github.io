@@ -2,7 +2,7 @@ const SERIES = [
   {
     id: "distance",
     title: "A Certain Distance",
-    subtitle: "Bergger Contest Series · 2024",
+    subtitle: "Bergger Contest Series · 2025",
     cover: "bergger/02.jpg",
     images: [
       { src: "bergger/01.jpg", caption: "Paris. View from Zamansky tower" },
